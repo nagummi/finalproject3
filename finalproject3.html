@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<link href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Tesla_Motors.svg/1200px-Tesla_Motors.svg.png" rel="icon type="image/x-icon">
+<title>Tesla</title>
+<style>body{
+    background-color:royalblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+}
+header{
+background-color:orange;
+height:50px;
+padding-top:25px;
+text-align:center;
+}
+footer{
+background-color:navy;
+height:100px;
+padding-top:25px;
+text-align:center;
+}
+li{
+display:inline;
+}
+nav{
+background-color:rgba(255,255,255,0.5);
+padding-top:10px;
+padding-bottom:10px;
+
+}
+</style>
+    </head>
+    <body>
+    <header style="text-align:center; padding-bottom:25px;">
+ <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Tesla_Motors.svg/1200px-Tesla_Motors.svg.png" height="50px" width="50px;" style="display:inline; vertical-align:middle; ">
+<span style="color:white;"><b>Tesla</b></span>
+</header>
+<nav>
+    <ul>
+<a href="index(10).html"><li>Tesla History</li></a>
+<a href="index(11).html"><li>Buy a Tesla</li></a>
+<a href="index(12).html"><li>Tesla Reviews</li></a>
+</ul>
+</nav>
+<hr>
+<table width="100%" border="3px">
+    <tr>
+        <th>Name</th>
+        <th>Mood of Review</th>
+        <th>Model</th>
+        <th>Date of Submission</th>
+    </tr>
+    <tr>
+        <th>Jack</th>
+        <td>Positive</td>
+        <td>S</td>
+        <td>7/27/2023</td>
+    </tr>
+    <tr>
+        <th>John</th>
+        <td>Negative</td>
+           <td>X</td>
+           <td>7/28/2023</td> 
+      </tr>
+      <tr>
+          <th>Casey</th>
+          <td>Positive</td>
+          <td>Y</td>
+          <td>7/28/2023<td>
+          </tr>  
+</table>
+<p><small>Please note that not all reviews are sent to this table, only people who put that they were okay with it below were sent.</small></p>
+<form>
+    <fieldset>
+    <legend>Reviews</legend>
+Name:<input type="text" required><br><br>
+Email Address:<input type="email" required><br><br>
+Date of Purchase:<input type="date" required><br><br>
+Which Model was purchased?:<br><br><input type="radio" name="model" required>Model S<br><br>
+<input type="radio" name="model" required>Model X<br><br>
+<input type="radio" name="model" required>Model Y<br><br>
+On a scale of 1 to 10, what would you rate your Tesla?
+<input type="range" min="1" max="10" required><br><br>
+Would you like your review to be sent to the table above?<br><br>
+<input type="radio">Yes.
+<br><br>
+<input type="radio">No.
+<br><br>
+Is there anything else you would like to mention about your tesla and how it could be improved?
+<br><br>
+<textarea rows="6"  cols="30"></textarea><br><br>
+<input type="submit">
+
+    </fieldset>
+</form>
+
+
+    <footer>
+<small><p>Credits: wikipedia.com, tesla.com</p>
+<img src="data:image/png;base64,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" height="25px" width="25px;" style="float:right;">
+<img src="data:image/png;base64,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" height="25px;" width="25px;"
+style="float:right;">
+<br>
+<p>Codeyoung Final Project, 2023</p></small>
+</footer>
+
+      </html></body>
+            <style></style>
+            <script></script>
+          </html>
+        
